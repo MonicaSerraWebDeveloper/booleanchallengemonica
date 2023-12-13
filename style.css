@@ -1,0 +1,138 @@
+/* Inizio */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+}
+
+/* Background */
+
+.background-image {
+    background-image: url('/MaterialeEsercizioLim/background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transparent-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 900px;
+    height: 650px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    margin-top: 80px;
+}
+
+.heading-text {
+    margin-top: 10px;
+}
+
+.green-bg {
+    background-color: #02dd01;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-select {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.text-list {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+/* Button */
+
+button {
+    color: rgb(73, 73, 73);
+    padding: 0 5px;
+    font-size: 10px;
+}
+
+/* Font */
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #02dd01;
+    font-weight: 400;
+}
+
+h2 {
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+/* Status Bar */
+
+.status-1 {
+    width: 35%;
+    height: 25px;
+    background-color: #f5b453;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.status-2 {
+    width: 65%;
+    height: 25px;
+    background-color: #1fc31d;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+
+}
+
+.status-3 {
+
+    width: 15%;
+    height: 25px;
+    background-color: #be4141;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+
+}
